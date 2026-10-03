@@ -2,10 +2,8 @@
 
 An animated, responsive redesign of the [Tulas International School (TIS)](https://tis.edu.in/) homepage, built for the NetPuppys Frontend Developer assignment. Content, facts and branding come from the existing TIS website; the layout, motion and visual design are new.
 
-- **Live demo:** _add your Vercel / Netlify URL here_
-  https://tis-frontend-assignment-alpha.vercel.app
-- **GitHub repository:** _add your repository URL here_
-  https://github.com/maniraj05/tis-frontend-assignment
+- **Live demo:** https://tis-frontend-assignment-alpha.vercel.app
+- **GitHub repository:** https://github.com/maniraj05/tis-frontend-assignment
 
 ## Tech Stack
 
