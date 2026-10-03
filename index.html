@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tulas International School | CBSE Co-ed Boarding School in Dehradun</title>
+    <meta
+      name="description"
+      content="Tulas International School (TIS) is a CBSE co-educational boarding and day school in Dehradun, Uttarakhand for boys and girls from Class IV to XII."
+    />
+    <meta name="theme-color" content="#12315c" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tulas International School | Boarding School in Dehradun" />
+    <meta
+      property="og:description"
+      content="CBSE-affiliated co-ed boarding and day school in Dehradun for Class IV to XII."
+    />
+    <meta property="og:image" content="https://tis.edu.in/images/tis-campus-og.jpg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Apply the saved theme before first paint to avoid a light/dark flash.
+      try {
+        var saved = localStorage.getItem('tis-theme')
+        var dark = window.matchMedia('(prefers-color-scheme: dark)').matches
+        document.documentElement.dataset.theme = saved || (dark ? 'dark' : 'light')
+      } catch (e) {
+        document.documentElement.dataset.theme = 'light'
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
